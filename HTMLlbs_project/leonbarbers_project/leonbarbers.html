@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Leon's Cuts</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="sydaustravels.css" rel="stylesheet" type="text/css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-image: url("images_lbs/barberspole.jpg");
+  max-width: 100%; /* sets width of background image */
+  height:auto;
+  padding-top: 75px; /* Style the header w/ 75px padding from top of screen */
+  padding-bottom: 75px; /* Style the header w/ 75px padding from top of navbar */
+  text-align: center; /* Centers the text of the Header */
+  color: white; /* Text color of Header font */
+  text-shadow: 2px 2px 4px #000000; /* Gives the Header text a shadow to make wording standout */
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 25px;  /* Style the top navigation bar to have space between navbar and header */
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+   position: sticky;
+   width: 100%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+   text-shadow: 2px 2px 4px #000000;
+   padding: 5px 5px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>"Leons Cuts and Gentlemen Styles"</h1>
+  <p>Professionally Done at Competitive Prices</p>
+</div>
+
+<div class="topnav" style="background-color: blue">
+  <a href="C:\Users\Dana D Johnson\Documents\HTMLlbs_project\leonbarbers_project\leonbarbers.html">Home</a>
+  <a href="C:\Users\Dana D Johnson\Documents\HTMLlbs_project\leonbarbers_project\service_and_cost.html">Services and Prices</a>
+  <a href="C:\Users\Dana D Johnson\Documents\HTMLlbs_project\leonbarbers_project\contact.html">Contact Us</a>
+  <a href="#">Cuts</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>History</h2>
+    <img class="img-responsive" src="images_lbs/barberschair.jpg" alt="Barbershop Pole" style="max-width: 100%">
+    <p>The barber pole, featuring red and white spiraling stripes, symbolized different aspects of the craft. It is a symbol from the time when barbers used to perform medical procedures. The white and red stripes represent bandages and blood while the blue stripes represent veins.</p>
+  </div>
+
+  <div class="column">
+    <h2>Definition</h2>
+    <img class="img-responsive" src="images_lbs/tradetoolsIII.jpg" alt="Barbershop Pole" style="max-width: 100%">
+    <p>bar·ber - One whose business is to cut hair, usually of men and boys, and shave or trim beards.  Barbershops have long been a great place for men to go and enjoy getting pampered.</p>
+  </div>
+
+  <div class="column">
+    <h2>Little Known Fact</h2>
+    <img class="img-responsive" src="images_lbs/scissors.jpg" alt="Barbershop Pole" style="max-width: 100%">
+    <p>Did You Know?  During the middle ages barbers did more than cut hair and shave. They also dressed wounds and performed surgical operations and were referred to as barber-surgeons.</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Posted by: Dana D Johnson  |  Contact information: leonbarbershop.com | <a href="privacy_policylbs.html"> Privacy Policy</a>  |  <p id="datetime"></p>
+</div>
+
+</body>
+</html>

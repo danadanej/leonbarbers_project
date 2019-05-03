@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Leon's Cuts</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-image: url("images_lbs/razor.jpg");
+  background-size: 100%; /* sets width of background image */
+  height:auto;
+  padding-top: 75px; /* Style the header w/ 75px padding from top of screen */
+  padding-bottom: 75px; /* Style the header w/ 75px padding from top of navbar */
+  text-align: center; /* Centers the text of the Header */
+  color: white; /* Text color of Header font */
+  text-shadow: 2px 2px 4px #000000; /* Gives the Header text a shadow to make wording standout */
+}
+
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  margin-top: 0px;  /* Style the top navigation bar to have space between navbar and header */
+  margin-bottom: 15px;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  padding: 10px;
+  height: auto;
+  margin-bottom: 35px;
+}
+
+.left {
+  width: 45%;
+  float:right;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.right {
+  width: 45%;
+  float:left;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+   position: sticky;
+   width: 100%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+   text-shadow: 2px 2px 4px #000000;
+   padding: 5px 5px;
+}
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>"Leons Cuts and Gentlemen Styles"</h1>
+  <p>Professionally Done at Competitive Prices</p>
+</div>
+
+<div class="topnav" style="background-color: blue">
+  <a href="C:\Users\Dana D Johnson\Documents\HTMLlbs_project\leonbarbers_project\leonbarbers.html">Home</a>
+  <a href="C:\Users\Dana D Johnson\Documents\HTMLlbs_project\leonbarbers_project\service_and_cost.html">Services and Prices</a>
+  <a href="C:\Users\Dana D Johnson\Documents\HTMLlbs_project\leonbarbers_project\contact.html">Contact Us</a>
+  <a href="#">Cuts</a>
+</div>
+
+<h2 align="center">Services and Pricing</h2>
+
+<div class="row">
+  <div class="column right" style="background-color:#aaa;" align="center">
+    <h2><u>Services</u></h2>
+    <p><b>Haircuts</b></p>
+    <p>Hair Fibers</p>
+    <p>Airbrush Enhancements</p>
+    <p>Enhancements</p>
+    <p>Consultations</p><br>
+    <p><b>Shaves</b></p>
+    <p>Beard Trims</p>
+    <p>Head</p>
+    <p>Combo: Head and Beard</p>
+    <p>Mustache Trims</p>
+  </div>
+  <div class="column left" style="background-color:#bbb;" align="center">
+    <h2><u>Pricing</u></h2>
+    <p>$20.00 and up</p>
+    <p>$5.00</p>
+    <p>$10.00</p>
+    <p>$10.00 and up</p>
+    <p>$No Charge</p><br>
+    <p>$10.00 and up</p>
+    <p>$10.00</p>
+    <p>$10.00</p>
+    <p>$20.00</p>
+    <p>$3.00</p>
+  </div>
+</div>
+
+
+<div class="footer">
+  <p>Posted by: Dana D Johnson  |  Contact information: leonsbarbershop.com | <a href="privacy_policylbs.html"> Privacy Policy</a>  |  <p id="datetime"></p>
+</div>
+
+</body>
+</html>
